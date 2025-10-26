@@ -1,0 +1,108 @@
+body{
+     margin: 0;
+    padding: 1.5rem;
+    background-image: url(../img/fondo.jpg);
+     background-size: auto;
+}
+header{
+    display: flex;
+    align-items: center; 
+    gap: 12px;       
+    padding: 8px;
+}
+header img{
+    height: 60px; 
+    width: auto;
+    display: block;
+    border-radius: 30px;
+}
+header h1{
+    margin: 0;  
+    font-family: 'titulo';
+    font-size: 2.5rem;
+    color: rgb(186, 255, 122);
+}
+
+p{
+    margin: 15px;
+    font-family: 'texto';
+    font-size: 1.2rem;
+    color: rgb(247, 224, 188);
+}
+
+#id{
+    margin: 6px;
+    padding: 5px;
+    font-size: 1rem;
+    font-family: 'texto';
+    color: rgb(52, 29, 109);
+    background-color: rgb(217, 255, 205);
+    border: 2px solid rgb(76, 17, 237);
+    border-radius: 5px;
+}
+#nombre{
+    margin: 6px;
+    padding: 5px;
+    font-size: 1rem;
+    font-family: 'texto';
+    color: rgb(52, 29, 109);
+    background-color: rgb(217, 255, 205);
+    border: 2px solid rgb(76, 17, 237);
+    border-radius: 5px;
+}
+#apellido{
+    margin: 6px;
+    padding: 5px;
+    font-size: 1rem;
+    font-family: 'texto';
+    color: rgb(52, 29, 109);
+    background-color: rgb(217, 255, 205);
+    border: 2px solid rgb(76, 17, 237);
+    border-radius: 5px;
+}
+#fecha{
+    margin: 6px;
+    padding: 5px;
+    font-size: 1rem;
+    font-family: 'texto';
+    color: rgb(52, 29, 109);
+    background-color: rgb(217, 255, 205);
+    border: 2px solid rgb(76, 17, 237);
+    border-radius: 5px;
+}
+#guardarSD{
+    margin: 6px;
+    padding: 5px;
+    font-size: 1rem;
+    font-family: 'texto';
+    transition-duration: 0.3s;
+    color: rgb(232, 255, 114);
+    background-color: rgb(205, 28, 134);
+    border: 2px solid  rgb(205, 28, 134);
+    border-radius: 6px;
+}
+
+
+input::placeholder {
+    color: #4c11ed9b; 
+    opacity: 1;     
+}
+
+
+#guardarSD:hover{
+    transition-duration: 0.3s;
+    transform: translateY(3px);
+    color: #4c11ed;
+    background-color: #9fe01d;
+    border: 2px solid #9fe01d;
+    box-shadow: 3px 3px 3px rgba(0, 0, 3, 0.949);
+}
+
+@font-face{
+    font-family: 'titulo';
+    src: url(../font/Thermometer.otf);
+}
+@font-face{
+    font-family: 'texto';
+    src: url(../font/Chalkboard-Regular.ttf);
+}
